@@ -1,0 +1,11 @@
+CREATE DATABASE impressora;
+
+USE impressora;
+
+CREATE TABLE impressora(
+  numero_serie varchar(10) NOT NULL,
+  material varchar(30) NOT NULL,
+  peso int(11) NOT NULL,
+  tamanho int(11) NOT NULL,
+  primary key (numero_serie)
+  );
